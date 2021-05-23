@@ -11,68 +11,255 @@
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play MADA.</tw-noscript></noscript></tw-story>
 <tw-storydata name="MADA" startnode="8" creator="Twine" creator-version="2.3.14" ifid="49A52614-E6DA-403F-91CB-E3738A069C21" zoom="1" format="Harlowe" format-version="3.2.2" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-sidebar {
 	display: none;
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="6 Grand frère" tags="" position="903,324" size="200,100">Frere:&quot;Hé Timon! t&#39;y crois toi au rumeur?&quot;
-//oh! frero, qu&#39;est ce qu&#39;il fait là//
+}
+
+@font-face {
+ font-family: 'Nanum';
+ src: url('https://madebyamb.github.io/mada/font/NanumPenScript-Regular.ttf') format('truetype');
+}
+
+@font-face {
+ font-family: 'agrippa';
+ src: url('https://madebyamb.github.io/mada/font/Agrippa-0.3-Trial-BoldMedium.otf') format('opentype');
+}
+
+
+tw-story {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	/*font: 100% Georgia, serif;*/
+ 	font-family: 'Nanum';
+	box-sizing: border-box;
+	width: 100%;
+	min-height: 100%;
+	font-size: 1.5em;
+	line-height: 1.5em;
+	overflow: hidden;
+	background-color: #fff;
+	color: #3c3c3c;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+tw-link, .enchantment-link {
+	color: #f7f5f2;
+	font-weight: bold;
+	text-decoration: none;
+	transition: 0.2s ease-in-out;
+}
+
+tw-link:hover, .enchantment-link:hover {
+	color: #FF4928 !important;
+  font-size:110%;
+}
+
+.thinking{
+  color: #918c85;
+  font-style: italic;
+}
+
+.visited {
+	color: #f7f5f2;
+}
+
+img{
+  width:100%;
+  margin-bottom: 0;
+}
+
+tw-story {
+	padding: 5% 30%;
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="6 Grand frère" tags="" position="902,323" size="200,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/6.jpg&quot;&gt;
+Frere:&quot;Hey Timon! T&#39;y crois toi au rumeur?&quot;
+
+&lt;span class=&quot;thinking&quot;&gt;Oh! frero, qu&#39;est-ce qu&#39;il fait la.&lt;/span&gt;
+
 [[//Quelles rumeurs?//-&gt;6.1 Contextualisation politique]]  
-[[//Oui bien sûr, tout le monde en parle.//-&gt;7 fin du dialogue contextuel]]</tw-passagedata><tw-passagedata pid="2" name="6.1 Contextualisation politique" tags="" position="1112,322" size="200,100">Frere:&quot;Apparement, le président Ravaloumanana est caché par les français. Des manifestants vont sûrement venir le chercher ici dans le quartier français.&quot;
-[[//Ici dans le lycée?!//-&gt;6.2]]</tw-passagedata><tw-passagedata pid="3" name="7 fin du dialogue contextuel" tags="" position="893,538" size="200,100">Frere :&quot;On peut pas trop savoir ce qui va se passer de toutes façons.&quot;
-//Ca ne m&#39;inquiète pas vraiment les manifestants. Il a tellement de pauvreté à cause du président ici. Les gens veulent juste avoir de quoi manger, pas nous faire du mal.//
-[[//Continuer//-&gt;8 Choix pour rentrer en classe]]</tw-passagedata><tw-passagedata pid="4" name="5 Contextualisation spacial" tags="" position="894,209" size="200,100">[[//Regarder autour//-&gt;6 Grand frère]]</tw-passagedata><tw-passagedata pid="5" name="8 Choix pour rentrer en classe" tags="" position="890,648" size="200,100">Frère:&quot;Tu viens en classe Timon?&quot;
+[[//Oui bien sur, tout le monde en parle.//-&gt;7 fin du dialogue contextuel]]</tw-passagedata><tw-passagedata pid="2" name="6.1 Contextualisation politique" tags="" position="1112,322" size="200,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/6.jpg&quot;&gt;
+Frere:&quot;Apparement, le president Ravaloumanana est cache par les francais. Des manifestants vont surement venir le chercher ici dans le quartier francais.&quot;
+
+[[//Ici dans le lycee?!//-&gt;6.2]]</tw-passagedata><tw-passagedata pid="3" name="7 fin du dialogue contextuel" tags="" position="893,538" size="200,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/6.jpg&quot;&gt;
+Frere: &quot;On peut pas trop savoir ce qui va se passer de toute facon.&quot;
+
+&lt;span class=&quot;thinking&quot;&gt;Ca ne m&#39;inquiete pas vraiment les manifestants. Il a tellement de pauvrete à cause du president ici. Les gens veulent juste avoir de quoi manger, pas nous faire du mal.&lt;/span&gt;
+
+[[//Continuer//-&gt;8 Choix pour rentrer en classe]]</tw-passagedata><tw-passagedata pid="4" name="5 Contextualisation spacial" tags="" position="894,209" size="200,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/5.jpg&quot;&gt;
+[[//Regarder autour//-&gt;5.1 contectualisation spaciale]]</tw-passagedata><tw-passagedata pid="5" name="8 Choix pour rentrer en classe" tags="" position="890,648" size="200,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/8.jpg&quot;&gt;
+Frere: &quot;Tu viens en classe Timon?&quot;
+
 [[//Rentrer en classe//-&gt;9 Rentrer en cours]]  
-[[//Se promener//-&gt;8.1 Se promener, contextualisation spatiale]]</tw-passagedata><tw-passagedata pid="6" name="9 Rentrer en cours" tags="" position="863,891" size="200,100">[[//Se retourner//-&gt;10 Manifestant à la grille]]</tw-passagedata><tw-passagedata pid="7" name="8.1 Se promener, contextualisation spatiale" tags="" position="1070,773" size="200,100">//Même en ayant vécu en France puis au Maroc, en tant qu&#39;expat avec maman et grand frère, Madagascar reste vraiment le pays le plus beau dans lequelle on a habité.//
-[[//Rentrer en classe//-&gt;9 Rentrer en cours]] </tw-passagedata><tw-passagedata pid="8" name="0 Ecran Titre" tags="" position="900,71" size="100,100">Pour une meilleure expérience, veuillez porter un casque.
-[[//Commencer//-&gt;1 Journal colonial]]
-</tw-passagedata><tw-passagedata pid="9" name="1 Journal colonial" tags="" position="1020,75" size="100,100">Double-click this passage to edit it.
-[[//Tourner la page//-&gt;2 Journal décolonial]]</tw-passagedata><tw-passagedata pid="10" name="2 Journal décolonial" tags="" position="1164,77" size="100,100">Double-click this passage to edit it.
-[[//Tourner la page//-&gt;3 Journal coup détat]]</tw-passagedata><tw-passagedata pid="11" name="3 Journal coup détat" tags="" position="1290,79" size="100,100">De graves émeutes secouent Antananarivo, capitale de Madagascar, depuis le début de la matinée de ce lundi 26 janvier 2009. Plusieurs infrastructures ont été prisees d&#39;assaut par les manifestants. La radio-télévision malgache, la radio MBS et trois supermarchés Magro, appartenant au président de la République Marc Ravalomanana, ont notamment été saccagés. En représailles, la police a tiré sur la foule faisant deux morts. Les troubles ont éclaté après que le maire de Tananarive, Andry Rajoelina, ait appelé à la manifestation et à la grève générale contre le régime &quot;dictatorial&quot; de Marc Ravalomanana. Le ministère français des Affaires étrangères recommandent aux ressortissants français de &quot;différer tout déplacement à Madagascar sauf raisons impérieuses&quot;.
-[[//Commencer le l&#39;histoire//-&gt;4 Transition à travers l&#39;image]]</tw-passagedata><tw-passagedata pid="12" name="4 Transition à travers l&#39;image" tags="" position="1415,79" size="100,100">Lundi 26 janvier 2009
-Lycée Français Tananarive, Madagascar (typo titre au centre)
-[[//Regarder autour//-&gt;5 Contextualisation spacial]]</tw-passagedata><tw-passagedata pid="13" name="10 Manifestant à la grille" tags="" position="916,1006" size="100,100">//Les rumeurs étaient donc vrai. Les malgache sont vraiment a la poursuite de Ravalomanana. Mais il ne se cache pas dans le lycée... Pourquoi viennent-il ici?//
+[[//Se promener//-&gt;8.1 Se promener, contextualisation spatiale]]</tw-passagedata><tw-passagedata pid="6" name="9 Rentrer en cours" tags="" position="863,891" size="200,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/9.jpg&quot;&gt;
+[[//Se retourner//-&gt;10 Manifestant à la grille]]</tw-passagedata><tw-passagedata pid="7" name="8.1 Se promener, contextualisation spatiale" tags="" position="1069,772" size="200,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/8.1.jpg&quot;&gt;
+&lt;span class=&quot;thinking&quot;&gt;Meme en ayant vecu en France puis au Maroc, en tant qu&#39;expat avec maman et grand frere, Madagascar reste vraiment le pays le plus beau dans lequelle on a habite.&lt;/span&gt;
+
+[[//Rentrer en classe//-&gt;9 Rentrer en cours]] </tw-passagedata><tw-passagedata pid="8" name="0 Ecran Titre" tags="" position="900,71" size="100,100">Pour une meilleure experience, veuillez porter un casque.
+[[//Commencer//-&gt;1 Journal colonial]]</tw-passagedata><tw-passagedata pid="9" name="1 Journal colonial" tags="" position="1020,75" size="100,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/1.jpg&quot;&gt;
+[[//Tourner la page//-&gt;2 Journal décolonial]]</tw-passagedata><tw-passagedata pid="10" name="2 Journal décolonial" tags="" position="1164,77" size="100,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/2.jpg&quot;&gt;
+[[//Tourner la page//-&gt;3 Journal coup détat]]</tw-passagedata><tw-passagedata pid="11" name="3 Journal coup détat" tags="" position="1290,79" size="100,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/3.jpg&quot;&gt;
+[[//Commencer l&#39;histoire//-&gt;4 Transition à travers l&#39;image]]</tw-passagedata><tw-passagedata pid="12" name="4 Transition à travers l&#39;image" tags="" position="1415,79" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[&lt;span style=&quot;font-size: 200%; line-height: 150%; font-family: &#39;agrippa&#39;;&quot;&gt;Lundi 26 janvier 2009
+Lycee Francais Tananarive, Madagascar&lt;/span&gt;
+
+[[//Regarder autour//-&gt;5 Contextualisation spacial]]]</tw-passagedata><tw-passagedata pid="13" name="10 Manifestant à la grille" tags="" position="916,1006" size="100,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/10.jpg&quot;&gt;
+&lt;span class=&quot;thinking&quot;&gt;Les rumeurs étaient donc vrai. Les malgaches sont vraiment a la poursuite de Ravaloumanane. Mais il ne se cache pas dans le lycee... Pourquoi viennent-il ici?&lt;span&gt;
+
 [[//Continuer//-&gt;10.1 Manifestant à la grille]]</tw-passagedata><tw-passagedata pid="14" name="11.a Rentrer en classe et suivre la maîtresse" tags="" position="743,1311" size="100,100">Fin à venir alternative, on a pas eu le temps, help.
-[[//Recommencer au dernier point de passage//-&gt;10 Manifestant à la grille]] </tw-passagedata><tw-passagedata pid="15" name="11.b Appler maman" tags="" position="949,1255" size="100,100">Maman &quot;Appelle Léon! Il viendra vous chercher. Retrouve ton frère et enfuiyez vous d&#39;ici! Vite! Faites attention à vous les enfants!&quot;
-//Maman m&#39;a toujours dit que Léon nous emmenait à l&#39;école et nous ramenait le soir en voiture parce que c&#39;était dangereux pour nous des petits français de rester dehors sans adulte. Je commencer comprendre ce qu&#39;elle voulait dire.//
-[[//Appeler Léon//-&gt;12 Appeler Léon]]
-[[//Rentrer en classe//-&gt;11.a Rentrer en classe et suivre la maîtresse]] </tw-passagedata><tw-passagedata pid="16" name="12 Appeler Léon" tags="" position="1090,1241" size="100,100">Léon &quot;Sortez du lycée au plus vite, surtout ne vous arrêtez pas, Timon suit ton frère, les manifestants vont sûrement vouloir vous kidnapper pour vous garder otage!  Je viens vous chercher sur la route qui mène au lycée!&quot;
-//Léon qui venait de nous déposer à l&#39;école il y a à peine 1 heure, nous ramène déjà à la maison.//
-[[//Retrouver grand frère//-&gt;13 intervention de la maîtresse]]</tw-passagedata><tw-passagedata pid="17" name="13 intervention de la maîtresse" tags="" position="1024,1382" size="100,100">Maîtresse: &quot;Qu&#39;est ce que tu fais là Timon, rentre en classe pour te cacher dépêche toi!&quot;
-[[//Aquiesser de la tête//-&gt;14 Aquiesser et attendre que la maîtresse détourne son regard]]
-[[//Rentrer en classe//-&gt;11.a Rentrer en classe et suivre la maîtresse]]</tw-passagedata><tw-passagedata pid="18" name="15 Retrouver le frère" tags="" position="1023,1600" size="100,100">Frère: &quot;Timon! Je te cherchais! (...) Léon vient nous chercher tu es sûr?! On passe par l&#39;entrée principale ou on escalade le mur?&quot;
-[[//Passer par l&#39;entrée principale//-&gt;15.1 Passer par la porte]]
-[[//Escalader le mur//-&gt;16 Escalader le grillage]]</tw-passagedata><tw-passagedata pid="19" name="15.1 Passer par la porte" tags="" position="859,1648" size="100,100">Frère: &quot;Même s&#39;il y a des manifestants tout autour de l&#39;école, il y en a beaucoup plus devant l&#39;entrée. En plus le gardien nous laissera jamais passer avec cette foule, c&#39;est sûr!&quot;
+[[//Recommencer au dernier point de passage//-&gt;10 Manifestant à la grille]] </tw-passagedata><tw-passagedata pid="15" name="11.b Appler maman" tags="" position="949,1255" size="100,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/11b.jpg&quot;&gt;
+Maman: &quot;Appelle Leon! Il viendra vous chercher. Retrouve ton frere et enfuiyez vous d&#39;ici! Vite! Faites attention à vous les enfants!&quot;
+
+&lt;span class=&quot;thinking&quot;&gt;Maman m&#39;a toujours dit que Léon nous emmenait à l&#39;école et nous ramenait le soir en voiture parce que c&#39;était dangereux pour nous des petits français de rester dehors sans adulte. Je commencer comprendre ce qu&#39;elle voulait dire.&lt;/span&gt;
+
+[[//Appeler Leon//-&gt;12 Appeler Léon]]
+[[//Rentrer en classe//-&gt;11.a Rentrer en classe et suivre la maîtresse]] </tw-passagedata><tw-passagedata pid="16" name="12 Appeler Léon" tags="" position="1090,1241" size="100,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/12.jpg&quot;&gt;
+Leon &quot;Sortez du lycee au plus vite, surtout ne vous arretez pas, Timon suit ton frere, les manifestants vont peut etre vouloir vous kidnapper pour vous garder otage! Je viens vous chercher sur la route qui mene au lycee!&quot;
+
+&lt;span class=&quot;thinking&quot;&gt;Leon qui venait de nous deposer à l&#39;ecole il y a a peine 1 heure, nous ramene deja a la maison.&lt;/span&gt;
+
+[[//Retrouver grand frère//-&gt;13 intervention de la maîtresse]]</tw-passagedata><tw-passagedata pid="17" name="13 intervention de la maîtresse" tags="" position="1024,1382" size="100,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/13.jpg&quot;&gt;
+Maitresse: &quot;Qu&#39;est ce que tu fais la Timon, rentre en classe pour te cacher depeche toi!&quot;
+
+[[//Aquiesser de la tete//-&gt;14 Aquiesser et attendre que la maîtresse détourne son regard]]
+[[//Rentrer en classe//-&gt;11.a Rentrer en classe et suivre la maîtresse]]</tw-passagedata><tw-passagedata pid="18" name="15 Retrouver le frère" tags="" position="1023,1600" size="100,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/15.jpg&quot;&gt;
+Frere: &quot;Timon! Je te cherchais! (...) Leon vient nous chercher tu es sur?! On passe par l&#39;entree principale ou on escalade le mur?&quot;
+
+[[//Passer par l&#39;entree principale//-&gt;15.1 Passer par la porte]]
+[[//Escalader le mur//-&gt;16 Escalader le grillage]]</tw-passagedata><tw-passagedata pid="19" name="15.1 Passer par la porte" tags="" position="859,1648" size="100,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/15.jpg&quot;&gt;
+Frere: &quot;Meme s&#39;il y a des manifestants tout autour de l&#39;école, il y en a beaucoup plus devant l&#39;entree. En plus le gardien nous laissera jamais passer avec cette foule, c&#39;est sur!&quot;
+
 [[//Escalader le mur//-&gt;16 Escalader le grillage]]
-[[//Escalader le mur//-&gt;16 Escalader le grillage]]</tw-passagedata><tw-passagedata pid="20" name="16 Escalader le grillage" tags="" position="1015,1731" size="100,100">//C&#39;est pour sécher les cours qu&#39;on passe par ici d&#39;habitude, pas pour s&#39;enfuir d&#39;une emeute!//
-[[//Suivre grand frère//-&gt;17 Course à travers la foule de manifestants]]</tw-passagedata><tw-passagedata pid="21" name="14 Aquiesser et attendre que la maîtresse détourne son regard" tags="" position="1027,1488" size="100,100">//C&#39;est bon, c&#39;est le moment, je peux me barrer avec mon frère maintenant qu&#39;elle part s&#39;occuper d&#39;autres personnes//
-[[//S&#39;échapper et retrouver grand frère//-&gt;15 Retrouver le frère]]</tw-passagedata><tw-passagedata pid="22" name="17 Course à travers la foule de manifestants" tags="" position="1023,1861.11669921875" size="100,100">//Est-ce qu&#39;il sait où est-ce qu&#39;on court comme ça?//
-[[//Suivre grand frère//-&gt;17.1 Suivre grand frère]]
-[[//S&#39;arrêter pour chercher Léon//-&gt;17.3 Regarder et se perdre dans la foule]]</tw-passagedata><tw-passagedata pid="23" name="17.1 Suivre grand frère" tags="" position="1022,2010.800048828125" size="100,100">//Est-ce qu&#39;on va réussir à retrouver Léon dans cette foule?//
-[[//Suivre grand frère//-&gt;17.2 Suivre grand frère]]
-[[//S&#39;arrêter pour chercher Léon//-&gt;17.3 Regarder et se perdre dans la foule]]</tw-passagedata><tw-passagedata pid="24" name="17.2 Suivre grand frère" tags="" position="1023,2160" size="100,100">//Et qu&#39;est ce qu&#39;il va se passer s&#39;ils quelqu&#39;un nous attrape? Il n&#39;y a personne pour nous protéger maintenant.//
-[[//Suivre grand frère//-&gt;18 Retrouver Léon]]
-[[//S&#39;arrêter pour chercher Léon//-&gt;17.3 Regarder et se perdre dans la foule]]</tw-passagedata><tw-passagedata pid="25" name="17.3 Regarder et se perdre dans la foule" tags="" position="1143,2010" size="100,100">Frere: &quot;Timon!&quot;
-[[//Frero! Léon m&#39;avait pourtant dit de ne pas m&#39;arrêter!//-&gt;Fin, Timon se fait attraper]]</tw-passagedata><tw-passagedata pid="26" name="18 Retrouver Léon" tags="" position="1023,2310" size="100,100">Léon: &quot;Les enfants!&quot;
-//Léon! On va enfin pouvoir se sortir de là..!//
-[[//Prendre la main de Léon//-&gt;19 Prend la main]]</tw-passagedata><tw-passagedata pid="27" name="19 Prend la main" tags="" position="1023,2460" size="100,100">[[//Courir//-&gt;20 confrontation]]</tw-passagedata><tw-passagedata pid="28" name="20 confrontation" tags="" position="1023,2610" size="100,100">Manifestant: &quot;Eh!&quot;
+[[//Escalader le mur//-&gt;16 Escalader le grillage]]</tw-passagedata><tw-passagedata pid="20" name="16 Escalader le grillage" tags="" position="1015,1731" size="100,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/16.jpg&quot;&gt;
+&lt;span class=&quot;thinking&quot;&gt;C&#39;est pour secher les cours qu&#39;on passe par ici d&#39;habitude, pas pour s&#39;enfuir d&#39;une emeute!&lt;/span&gt;
+
+[[//Suivre grand frere//-&gt;17 Course à travers la foule de manifestants]]</tw-passagedata><tw-passagedata pid="21" name="14 Aquiesser et attendre que la maîtresse détourne son regard" tags="" position="1027,1488" size="100,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/14.jpg&quot;&gt;
+&lt;span class=&quot;thinking&quot;&gt;C&#39;est bon, c&#39;est le moment, je peux me barrer avec mon frère maintenant qu&#39;elle part s&#39;occuper d&#39;autres personnes.&lt;/span&gt;
+
+[[//S&#39;echapper et retrouver grand frere//-&gt;15 Retrouver le frère]]</tw-passagedata><tw-passagedata pid="22" name="17 Course à travers la foule de manifestants" tags="" position="1023,1861" size="100,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/17.jpg&quot;&gt;
+&lt;span class=&quot;thinking&quot;&gt;Est-ce qu&#39;il sait ou est-ce qu&#39;on court comme ça?&lt;/span&gt;
+
+[[//Suivre grand frere//-&gt;17.1 Suivre grand frère]]
+[[//S&#39;arreter pour chercher Leon//-&gt;17.3 Regarder et se perdre dans la foule]]</tw-passagedata><tw-passagedata pid="23" name="17.1 Suivre grand frère" tags="" position="1022,2010" size="100,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/17.1.jpg&quot;&gt;
+&lt;span class=&quot;thinking&quot;&gt;Est-ce qu&#39;on va reussir a retrouver Leon dans cette foule?&lt;/span&gt;
+
+[[//Suivre grand frere//-&gt;17.2 Suivre grand frère]]
+[[//S&#39;arreter pour chercher Leon//-&gt;17.3 Regarder et se perdre dans la foule]]</tw-passagedata><tw-passagedata pid="24" name="17.2 Suivre grand frère" tags="" position="1023,2160" size="100,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/17.2.jpg&quot;&gt;
+&lt;span class=&quot;thinking&quot;&gt;Et qu&#39;est ce qu&#39;il va se passer s&#39;ils quelqu&#39;un nous attrape? Il n&#39;y a personne pour nous proteger maintenant.&lt;/span&gt;
+
+[[//Suivre grand frere//-&gt;18 Retrouver Léon]]
+[[//S&#39;arreter pour chercher Leon//-&gt;17.3 Regarder et se perdre dans la foule]]</tw-passagedata><tw-passagedata pid="25" name="17.3 Regarder et se perdre dans la foule" tags="" position="1143,2009" size="100,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/17.3.jpg&quot;&gt;
+Frere: &quot;Timon!&quot;
+
+[[//Frero! Leon m&#39;avait pourtant dit de ne pas m&#39;arreter!//-&gt;Fin, Timon se fait attraper]]</tw-passagedata><tw-passagedata pid="26" name="18 Retrouver Léon" tags="" position="1023,2310" size="100,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/18.jpg&quot;&gt;
+Leon: &quot;Les enfants!&quot;
+
+&lt;span class=&quot;thinking&quot;&gt;Leon! On va enfin pouvoir se sortir de la...!&lt;/span&gt;
+
+[[//Prendre la main de Leon//-&gt;19 Prend la main]]</tw-passagedata><tw-passagedata pid="27" name="19 Prend la main" tags="" position="1023,2460" size="100,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/19.jpg&quot;&gt;
+[[//Courir//-&gt;20 confrontation]]</tw-passagedata><tw-passagedata pid="28" name="20 confrontation" tags="" position="1023,2610" size="100,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/20.jpg&quot;&gt;
+Manifestant: &quot;Eh!&quot;
+
 [[//Rester avec Léon//-&gt;21 confrontation]]
-[[//S&#39;arrêter//-&gt;21 confrontation]]</tw-passagedata><tw-passagedata pid="29" name="21 confrontation" tags="" position="1023,2760" size="100,100">Manifestant: &quot;Donne nous les enfants! Ils sont français non?! Tu es de quel côté?! Tu caches Ravaloumanane aussi peut-être?!&quot;
-//Et merde, qu&#39;est ce qu&#39;on fait maintenant?!//
+[[//S&#39;arreter//-&gt;21 confrontation]]</tw-passagedata><tw-passagedata pid="29" name="21 confrontation" tags="" position="1023,2760" size="100,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/21.jpg&quot;&gt;
+Manifestant: &quot;Donne nous les enfants! Ils sont francais non?! Tu es de quel cote?! Tu caches Ravaloumanane aussi peut-etre?!&quot;
+
+&lt;span class=&quot;thinking&quot;&gt;Et merde, qu&#39;est ce qu&#39;on fait maintenant?!&lt;/span&gt;
+
 [[//Continuer//-&gt;22 Confrontation]]
-[[//Continuer//-&gt;22 Confrontation]]</tw-passagedata><tw-passagedata pid="30" name="23.a S&#39;échapper" tags="" position="1163,2889.800048828125" size="100,100">Léon &quot;Timon non! Timon&quot;
-Tant pis, je dois m&#39;enfuir.
-[[//Continuer//-&gt;Fin, perdu]]</tw-passagedata><tw-passagedata pid="31" name="23.b Rester avec Léon" tags="" position="1021,2999" size="100,100">Léon: &quot;Partez les enfants! courrez!&quot;
-[[//Courir//-&gt;24 Continuer de marcher sans Léon]]</tw-passagedata><tw-passagedata pid="32" name="24 Continuer de marcher sans Léon" tags="" position="1021,3109" size="100,100">//La voiture de Léon! On y est!
-Léon c&#39;est un peu notre tonton, je savais qu&#39;il allait réussir à nous protéger pour qu&#39;on se sorte de là.//
-[[//Rentrer dans la voiture//-&gt;25 Rentrer dans la voiture]]</tw-passagedata><tw-passagedata pid="33" name="25 Rentrer dans la voiture" tags="" position="1020,3219" size="100,100">Léon: &quot;Bravo les enfants... On s&#39;en est sorti... Vous allez pouvoir vous cacher avec votre maman.&quot;
-[[//Continuer//-&gt;25.1 Rentrer dans la voiture]]</tw-passagedata><tw-passagedata pid="34" name="26 Regarder à la fenêtre" tags="" position="1027,3448" size="100,100">//Ca ressemble donc à ça les manifestations ici... La pauvreté extrême fait vraiment dégénérer la situation. La police qui devrait protéger le peuple protège le président en tirant sur la population.//
-[[//Sortir du récit//-&gt;27 Transition de fin]]</tw-passagedata><tw-passagedata pid="35" name="27 Transition de fin" tags="" position="1031,3566" size="100,100">- Timon</tw-passagedata><tw-passagedata pid="36" name="6.2" tags="" position="1013,431" size="200,100">Frère: &quot;Je ne sais pas, ils sont prêt à tout pour la destitution du président, même enlever des enfants&quot;
-[[//Tu penses sincèrement ça?//-&gt;7 fin du dialogue contextuel]] 
-[[//Nan c&#39;est pas possible, ils feraient jamais ça.//-&gt;7 fin du dialogue contextuel]] </tw-passagedata><tw-passagedata pid="37" name="10.1 Manifestant à la grille" tags="" position="919,1119" size="100,100">Maîtresse: &quot;Rentrez dans vos classes! Allez vous mettre à l&#39;abris!&quot;
+[[//Continuer//-&gt;22 Confrontation]]</tw-passagedata><tw-passagedata pid="30" name="23.a S&#39;échapper" tags="" position="1163,2889" size="100,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/17.3.jpg&quot;&gt;
+Leon: &quot;Timon non! Timon&quot;
+
+&lt;span class=&quot;thinking&quot;&gt;Tant pis, je dois m&#39;enfuir.&lt;/span&gt;
+
+[[//Fuir//-&gt;Fin, perdu]]
+[[//Fuir//-&gt;Fin, perdu]]</tw-passagedata><tw-passagedata pid="31" name="23.b Rester avec Léon" tags="" position="1021,2999" size="100,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/23.b.jpg&quot;&gt;
+Leon: &quot;Partez les enfants! courrez!&quot;
+
+[[//Courir//-&gt;24 Continuer de marcher sans Léon]]</tw-passagedata><tw-passagedata pid="32" name="24 Continuer de marcher sans Léon" tags="" position="1021,3109" size="100,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/24.jpg&quot;&gt;
+&lt;span class=&quot;thinking&quot;&gt;La voiture de Leon! On y est!
+Leon c&#39;est un peu notre tonton, je savais qu&#39;il allait reussir à nous proteger pour qu&#39;on se sorte de la.&lt;/span&gt;
+
+[[//Rentrer dans la voiture//-&gt;25 Rentrer dans la voiture]]</tw-passagedata><tw-passagedata pid="33" name="25 Rentrer dans la voiture" tags="" position="1020,3219" size="100,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/25.jpg&quot;&gt;
+Leon: &quot;Bravo les enfants... On s&#39;en est sorti... Vous allez pouvoir vous cacher avec votre mère.&quot;
+
+[[//Continuer//-&gt;25.1 Rentrer dans la voiture]]</tw-passagedata><tw-passagedata pid="34" name="26 Regarder à la fenêtre" tags="" position="1027,3448" size="100,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/26.jpg&quot;&gt;
+&lt;span class=&quot;thinking&quot;&gt;Ca ressemble donc à ça les manifestations ici... La pauvrete extrême fait vraiment degenerer la situation. La police qui devrait proteger le peuple protège le président de la population en tirant sur la foule.&lt;/span&gt;
+
+[[//Sortir du recit//-&gt;27 Transition de fin]]</tw-passagedata><tw-passagedata pid="35" name="27 Transition de fin" tags="" position="1031,3566" size="100,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/27.webm&quot;&gt;
+- Timon
+
+[[//Fin//-&gt;Conclusion]]</tw-passagedata><tw-passagedata pid="36" name="6.2" tags="" position="1012,431" size="200,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/6.jpg&quot;&gt;
+Frere: &quot;Je ne sais pas, ils sont pret a tout pour la destitution du president, meme enlever des enfants.&quot;
+
+[[//Tu penses sincerement ça?//-&gt;7 fin du dialogue contextuel]] 
+[[//Nan c&#39;est pas possible, ils feraient jamais ça.//-&gt;7 fin du dialogue contextuel]] </tw-passagedata><tw-passagedata pid="37" name="10.1 Manifestant à la grille" tags="" position="919,1119" size="100,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/10.jpg&quot;&gt;
+Maitresse: &quot;Rentrez dans vos classes! Allez vous mettre à l&#39;abris!&quot;
+
 [[//Appeler maman//-&gt;11.b Appler maman]]
-[[//Rentrer en classe//-&gt;11.a Rentrer en classe et suivre la maîtresse]]</tw-passagedata><tw-passagedata pid="38" name="Fin, Timon se fait attraper" tags="" position="1321,2001.199951171875" size="100,100">//Ils m&#39;ont attrapé! C&#39;est finit!//
-[[//Recommencer au dernier point de passage//-&gt;16 Escalader le grillage]]</tw-passagedata><tw-passagedata pid="39" name="22 Confrontation" tags="" position="1024,2887" size="100,100">//Il me fait peur lui, qu&#39;est ce qu&#39;il nous veut lui, on lui a rien fait.//
+[[//Rentrer en classe//-&gt;11.a Rentrer en classe et suivre la maîtresse]]</tw-passagedata><tw-passagedata pid="38" name="Fin, Timon se fait attraper" tags="" position="1275,2009" size="100,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/17.4.jpg&quot;&gt;
+VOUS VOUS ETES FAIT ATTRAPER.
+
+[[//Recommencer au dernier point de passage//-&gt;16 Escalader le grillage]]</tw-passagedata><tw-passagedata pid="39" name="22 Confrontation" tags="" position="1024,2887" size="100,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/22.jpg&quot;&gt;
+&lt;span class=&quot;thinking&quot;&gt;Il me fait peur lui, qu&#39;est ce qu&#39;il nous veut lui, on lui a rien fait.&lt;/span&gt;
+
 [[//Fuir//-&gt;23.a S&#39;échapper]]
-[[//Rester//-&gt;23.b Rester avec Léon]]</tw-passagedata><tw-passagedata pid="40" name="25.1 Rentrer dans la voiture" tags="" position="1023,3334" size="100,100">//Woah... On s&#39;en est sorti. J&#39;ai peur pour ceux qui sont encore dans l&#39;école. Avec la police qui arrive et qui tire sur les manifestants, personne ne peut savoir ce qui va arriver...//
-[[//Regarder par la fénêtre la confrontation//-&gt;26 Regarder à la fenêtre]]</tw-passagedata><tw-passagedata pid="41" name="Fin, perdu" tags="" position="1364,2879.800048828125" size="100,100">Vous vous êtes perdu.
-[[//Recommencer au dernier point de passage//-&gt;21 confrontation]]</tw-passagedata></tw-storydata>
+[[//Rester//-&gt;23.b Rester avec Léon]]</tw-passagedata><tw-passagedata pid="40" name="25.1 Rentrer dans la voiture" tags="" position="1023,3334" size="100,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/25.jpg&quot;&gt;
+&lt;span class=&quot;thinking&quot;&gt;Woah... On s&#39;en est sorti. J&#39;ai peur pour ceux qui sont encore dans l&#39;ecole. Avec la police qui arrive et qui tire sur les manifestants, personne ne peut savoir ce qui va arriver...&lt;/span&gt;
+
+[[//Regarder par la fenetre la confrontation//-&gt;26 Regarder à la fenêtre]]</tw-passagedata><tw-passagedata pid="41" name="Fin, perdu" tags="" position="1364,2879" size="100,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/23.a.jpg&quot;&gt;
+VOUS VOUS ETES PERDU.
+
+[[//Recommencer au dernier point de passage//-&gt;21 confrontation]]</tw-passagedata><tw-passagedata pid="42" name="Conclusion" tags="" position="1031,3716" size="100,100">&lt;span style=&quot;font-family:georgia;&quot;&gt;
+&lt;span style=&quot;font-size:300%;font-style:bold;&quot;&gt;Conclusion&lt;/span&gt;
+
+Cette histoire provient directement de Timon Idrissi. Français d’origine, puis expatrié, Timon a vécu avec sa mère pendant son adolescence au quatre coins du globe. Il frôla une prise d’otage et un potentielle mort pendant ce coup d’état à Tananarive en 2009. On entend actuellement sa voix nous raconter son histoire.
+
+La crise politique de 2009 à Madagascar est une série de manifestations, d&#39;émeutes et de confrontations politiques qui secouent Madagascar de janvier 2009 à décembre 2013. Elle oppose les partisans du maire d&#39;Antananarivo, Andry Rajoelina, aux partisans de Marc Ravalomanana, président de la République de Madagascar depuis 2002. Il est reproché au président Ravalomanana la hausse des prix, sa mainmise sur l&#39;économie malgache notamment l&#39;achat d&#39;un Boeing présidentiel avec l&#39;argent public en partie et la location en bail longue durée d&#39;1,3 million d&#39;hectares de la surface cultivable (non encore cultivée) à Madagascar à l&#39;entreprise coréenne Daewoo. Environ 135 personnes trouvent la mort dans les émeutes qui caractérisent le début de la crise: des pilleurs, mais aussi les victimes des balles de la garde présidentielle devant le palais présidentiel le 7 février 2009. 
+
+En novembre 2008, l&#39;affaire Daewoo éclate dans le journal américain Financial Times, qui révèle la cession pour 99 ans de 1,3 million d&#39;hectares de terres malgaches à la société sud-coréenne Daewoo, pour une production destinée uniquement à l&#39;exportation, une violation du tanindrazana, principe culturel malgache de l&#39;attache inaliénable entre le peuple et sa terre. En décembre 2008, la présidence acquiert un nouveau Boeing 737 pour 60 millions de dollars. Critiquée, la présidence a du mal à justifier les fonds utilisés pour l&#39;achat de l&#39;avion face aux demandes d’explications du FMI. Ces deux scandales sont portés en fer-de-lance des contestations politiques qui débouchent sur la crise politique4. 
+
+Lors d&#39;un nouveau rassemblement, Andry Rajaoelina exige la démission du président Ravalomanana, au-delà donc de ses précédentes demandes de démission de ministres. Face aux autres partis d&#39;opposition, il veut apparaître comme le défenseur de la démocratie, et par voie de fait le nouveau chef d&#39;une opposition qu&#39;il dit décapitée par sept ans de régime du Président Marc Ravalomanana. Une autre manifestation anti-gouvernementale suit le 24 janvier, et débouche sur des émeutes et des pillages durant lesquels l&#39;immeuble de la télévision publique est incendié. Le 26 janvier 2009, l&#39;État envoie des soldats — des « mercenaires » selon les partisans d&#39;Andry Rajaoelina — pour confisquer les émetteurs de la radio Viva. Mais le matin, les partisans de Andry Rajaoelina accourent à la place du 13-Mai. Arrivé à son tour, le maire ordonne à ses partisans de tenir meeting devant le tribunal Anosy pour obtenir la libération de trois étudiants inculpés dans une affaire de cocktail molotov et l&#39;interruption du remblayage qu&#39;il dit non autorisé des rizières d&#39;Andohatapenaka. À Anosy, la manifestation n&#39;est pas maîtrisée. Des partisans s&#39;en prennent aux locaux de la radio et de la télévision nationales, les pillent et les incendient. Ces partisans attaquent aussi les magasins et usines appartenant au groupe Tiko ou à des sociétés privées, propriétés du président Ravalomanana11. C&#39;est une remise en cause de la réussite économique du président Ravalomanana, menée par Andry Rajaoelina, lui aussi homme d&#39;affaires.
+L&#39;Île commence alors à s&#39;embraser et les provinces sont également touchées par les mêmes scènes d&#39;émeutes et de pillages. Au moins 68 personnes périssent en moins de trois jours lors d&#39;émeutes et de pillages liés aux manifestations appelées par le maire de la capitale contre le régime. Les responsables de la gendarmerie annoncent officiellement 68 morts alors que le secrétaire d&#39;État français à la Coopération, Alain Joyandet, fait état de « plus de 80 morts en quelques jours ». La plupart des victimes périssent dans des incendies lors de pillages. Dans la capitale, à Antananarivo, les autorités annoncent 42 morts dans l&#39;incendie d&#39;un centre d&#39;achats dont la toiture s&#39;est effondrée sur des pillards. En province, le bilan des forces de l&#39;ordre décompte : 4 morts à Antsirabe, 2 à Fianarantsoa (centre de l’île), 2 à Toamasina (côte est), 1 à Sambava (côte nord-est), 1 à Mahajanga (côte ouest). À Toliara, sur la côte sud-ouest de l&#39;île, ils recensent 16 morts, dont 11 victimes d&#39;une « électrocution ».
+Le 7 février, 28 manifestants sont tués et 212 autres blessés alors que l&#39;armée tire sur la foule qui marchait vers le palais présidentiel, normalement et internationalement déclaré zone rouge.
+
+Le 4 mars 2009, des affrontements entre des manifestants de l&#39;opposition et les forces de l&#39;ordre à Ambositra font deux morts par balles parmi les manifestants et plusieurs blessés de part et d&#39;autre. 
+
+Le 11 mars, des militaires proches de Andry Rajoelina forcent le chef de l&#39;État major à démissionner. Les 14 et 15 mars, l&#39;armée apporte son soutien à Andry Rajoelina. Le 17 mars 2009, 10 000 partisans de Rajoelina manifestent, et l&#39;armée envahit le palais présidentiel déjà abandonné par le gouvernement et son président, réfugié dans une résidence hors de la ville et ayant annoncé dans la matinée sa démission. L&#39;Union africaine condamne l&#39;invasion du palais présidentiel, la qualifiant de « tentative de coup d&#39;État ». Cependant, Rajoelina a affirmé que la capture du palais n&#39;était pas un coup d&#39;État, bien qu&#39;il se soit immédiatement installé dans les bureaux présidentiels du palais capturé. 
+
+Le 18 mars 2009, le Conseil constitutionnel de l&#39;île officialise la prise de pouvoir de Andry Rajoelina, son investiture officielle devant avoir lieu le 21 mars 2009. Andry Rajoelina s&#39;engage à organiser des élections et à rédiger une nouvelle constitution en vue de créer une IVe République. 
+Le président de la République française Nicolas Sarkozy déclare, toujours le 20 août : « Bien sûr c&#39;est ça, un coup d’État... Il y a beaucoup de choses à dire sur l&#39;ancien président (Marc Ravalomanana) mais j&#39;observe qu&#39;il est renversé sans aucune élection »31. 
+&quot;Il y a beaucoup de choses à dire sur l&#39;ancien président mais j&#39;observe qu&#39;il est renversé sans aucune élection. J&#39;observe que la première décision c&#39;est la suppression du Parlement, ce qui n&#39;est quand même pas un signe extrêmement positif (...). Bien sûr c&#39;est ça, un coup d&#39;Etat.&quot; déclare le président de la République française Nicolas Sarkozy.
+
+Le ministre des Finances, Benja Razafimahaleo, a annoncé une baisse des recettes publiques de 15 à 20 %. Ravalomanana est propriétaire de Tiko, la plus grande ferme laitière de Madagascar. Après que Rajoelina ait pris le pouvoir, les partisans de Rajoelina ont pillé les fermes laitières de Tiko, ce qui a entraîné une pénurie de lait à Madagascar. Les recettes du tourisme ont diminué de 70 %, en partie parce que certains pays étrangers ont déconseillé à leurs citoyens de se rendre dans le pays. Environ 70 % des hôtels ont fermé en raison de la chute des activités. Les grèves, les pénuries de salaires et la réduction de l&#39;aide étrangère sont également à l&#39;origine de problèmes économiques pour le pays. En effet, le taux de croissance du pays en 2009 était de -4,0 % alors qu&#39;il était 7,1 % en 2008, sous Ravalomanana. 
+
+&lt;a href=&quot;https://fr.wikipedia.org/wiki/Crise_politique_de_2009_%C3%A0_Madagascar&quot;&gt;Source&lt;/a&gt;
+
+&lt;a href=&quot;https://fresques.ina.fr/independances/fiche-media/Indepe00239/la-proclamation-d-independance-de-madagascar.html&quot;&gt;Proclamation de l&#39;indépendance&lt;/a&gt;
+
+Emeutes Tananarive 26 janvier 2009:
+https://www.liberation.fr/planete/2009/02/07/manifestation-meurtriere-a-madagascar-le-fil-des-evenements_2186/
+Conquête coloniale
+https://aefe-madagascar.histegeo.org/IMG/pdf/etude_cas_colonisation_madagascar.pdf
+https://www.madagascar-island.com/histoire-de-madagascar/periode-coloniale/
+
+Lutte décoloniales
+https://savoirs.rfi.fr/fr/recherche/type-activite-en-ligne/questionnaire/contenu-niveau-francais/2751/editorial/article/thematique/decolonisation-3523/mots-cles/madagascar-2909
+
+Sociétés et luttes anticoloniales à Madagascar (1896-1946)
+https://www.karthala.com/1073-societes-et-luttes-anticoloniales-a-madagascar-1896-1946.html
+
+Les gens du pouvoir à Madagascar. État postcolonial, légitimités et territoire (1956-2002)
+https://www.karthala.com/2081-les-gens-du-pouvoir-a-madagascar-etat-postcolonial-legitimites-et-territoire-1956-2002.html
+
+Madagascar, le coup d’état de 2009:
+https://www.karthala.com/hommes-et-societes-sciences-economiques-et-politiques/2528-madagascar-le-coup-d-etat-de-mars-2009-9782811106058.html
+
+Un projet réalisé par Danny Lahcene et Ambroise Nicolao.
+&lt;/span&gt;</tw-passagedata><tw-passagedata pid="43" name="5.1 contectualisation spaciale" tags="" position="753,322" size="100,100">&lt;img src=&quot;https://madebyamb.github.io/mada/media/5.1.jpg&quot;&gt;
+[[//Regarder autour//-&gt;6 Grand frère]]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">"use strict";var _slicedToArray=function(){return function(e,t){if(Array.isArray(e))return e;if(Symbol.iterator in Object(e))return function(e,t){var n=[],r=!0,a=!1,i=void 0;try{for(var o,s=e[Symbol.iterator]();!(r=(o=s.next()).done)&&(n.push(o.value),!t||n.length!==t);r=!0);}catch(e){a=!0,i=e}finally{try{!r&&s.return&&s.return()}finally{if(a)throw i}}return n}(e,t);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}!function(){
 /**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
